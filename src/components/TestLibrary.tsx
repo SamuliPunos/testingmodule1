@@ -7,7 +7,7 @@ interface IProp {
   holderName?: string;
 }
 
-const Test = ({cardNumber = ''}: IProp) => {
+const TestLibrary = ({cardNumber = ''}: IProp) => {
   useEffect(() => {}, []);
 
   return (
@@ -37,4 +37,4 @@ const Test = ({cardNumber = ''}: IProp) => {
   );
 };
 
-export default Test;
+export default TestLibrary;

@@ -1,12 +1,12 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
-import Test from './src/components/Test';
+import TestLibrary from './src/components/TestLibrary';
 
 const App = () => {
   return (
     <>
       <SafeAreaView style={{flex: 1}}>
-        <Test cardNumber="1234567" />
+        <TestLibrary cardNumber="1234567" />
       </SafeAreaView>
     </>
   );
